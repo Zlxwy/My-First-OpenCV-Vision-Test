@@ -1,0 +1,34 @@
+﻿  avoid_obstacles.cpp
+  banmaxian_detect.cpp
+  cal_steering_dir.cpp
+  cam_disp.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\avoid_obstacles.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\banmaxian_detect.cpp(1,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\cal_steering_dir.cpp(4,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\cam_disp.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  fill_bin_small_region.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\fill_bin_small_region.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  gray_pic.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\gray_pic.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  main.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\main.cpp(2,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  mat_refresh_disp.cpp
+  multi_threads_cam_disp.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\multi_threads_cam_disp.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  perspective_transform.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\perspective_transform.cpp(2,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  pic_resize.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\pic_resize.cpp(2,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  pic_roi.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\pic_roi.cpp(2,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  terminal_pic_disp.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\terminal_pic_disp.cpp(2,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  track_bly_static.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\track_bly_static.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  track_detect_ilikara.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\track_detect_ilikara.cpp(2,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  track_rcgn_animated.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\track_rcgn_animated.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  track_rcgn_static.cpp
+C:\Users\ZLXWY\Desktop\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\track_rcgn_static.cpp(3,10): error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  正在生成代码...

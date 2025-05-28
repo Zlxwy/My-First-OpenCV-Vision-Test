@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\main">
+      <UniqueIdentifier>{8e01b384-79f0-4fb8-8781-f913c0c6658f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TestCode">
+      <UniqueIdentifier>{c7f821a1-aeba-4535-9f4b-e06113dd53ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\avoid_obstacles.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\banmaxian_detect.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\cal_steering_dir.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\cam_disp.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\fill_bin_small_region.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\gray_pic.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\mat_refresh_disp.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\multi_threads_cam_disp.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\perspective_transform.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\pic_resize.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\pic_roi.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\terminal_pic_disp.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\track_bly_static.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\track_detect_ilikara.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\track_rcgn_animated.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCode\track_rcgn_static.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
