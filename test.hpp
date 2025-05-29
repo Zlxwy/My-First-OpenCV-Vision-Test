@@ -23,8 +23,8 @@ typedef int64_t     int64;  // 64位有符号整数
 
 #define RESIZED_WIDTH  128  // 缩放后的宽度
 #define RESIZED_HEIGHT 96   // 缩放后的高度
-#define ROW_UP         45   // 计算路径时，从第几行开始
-#define ROW_DOWN       70   // 计算路径时，到第几行结束
+#define ROW_UP         55   // 计算路径时，从第几行开始
+#define ROW_DOWN       72   // 计算路径时，到第几行结束
 // #define BORDER_MAX 1 // 二值化图像的最大边框宽度
 
 #define GRAY2BIN_THRESH  119    // 灰度图像转黑白图像的灰度阈值

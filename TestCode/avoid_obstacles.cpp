@@ -44,8 +44,8 @@ int test_avoid_obstacles(void) {
         std::vector<cv::Point> leftEdgePoints, rightEdgePoints;  // 定义两个容器来存储寻找到的左右边缘点
         std::vector<cv::Point> leftEdgePointsFiltered, rightEdgePointsFiltered;
         findEdgePix(binFrame, leftEdgePoints, rightEdgePoints); // 查找二值图像的左右边界像素点坐标，存入两个容器中
-        filterXCoord(leftEdgePoints, leftEdgePointsFiltered, 19);
-        filterXCoord(rightEdgePoints, rightEdgePointsFiltered, 19);
+        filterXCoord(leftEdgePoints, leftEdgePointsFiltered, 25);
+        filterXCoord(rightEdgePoints, rightEdgePointsFiltered, 25);
 
         size_t min_dop_num = std::min<size_t>(leftEdgePointsFiltered.size(), rightEdgePointsFiltered.size()); // 获取这两个容器的元素数量最小值
         std::vector<cv::Point> midPoint; // 用于收集两条边线之间的中点坐标值

@@ -1,7 +1,50 @@
-﻿  cam_disp.cpp
+﻿  avoid_obstacles.cpp
+  cal_steering_dir.cpp
+  cam_disp.cpp
+  fill_bin_small_region.cpp
+  gray_pic.cpp
+  multi_threads_cam_disp.cpp
+  perspective_transform.cpp
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(46,25): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(46,25): warning C4244:         with
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(46,25): warning C4244:         [
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(46,25): warning C4244:             _Tp=float
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(46,25): warning C4244:         ]
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(47,36): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(47,36): warning C4244:         with
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(47,36): warning C4244:         [
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(47,36): warning C4244:             _Tp=float
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(47,36): warning C4244:         ]
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(52,25): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(52,25): warning C4244:         with
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(52,25): warning C4244:         [
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(52,25): warning C4244:             _Tp=float
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(52,25): warning C4244:         ]
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(53,36): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(53,36): warning C4244:         with
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(53,36): warning C4244:         [
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(53,36): warning C4244:             _Tp=float
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(53,36): warning C4244:         ]
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(54,25): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(54,25): warning C4244:         with
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(54,25): warning C4244:         [
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(54,25): warning C4244:             _Tp=float
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(54,25): warning C4244:         ]
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(55,36): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(55,36): warning C4244:         with
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(55,36): warning C4244:         [
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(55,36): warning C4244:             _Tp=float
+D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\My-First-OpenCV-Vision-Test\TestCode\perspective_transform.cpp(55,36): warning C4244:         ]
+  pic_resize.cpp
+  pic_roi.cpp
+  terminal_pic_disp.cpp
+  track_bly_static.cpp
+  track_rcgn_animated.cpp
+  track_rcgn_static.cpp
+  main.cpp
   正在生成代码
-  0 of 362 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  3 of 362 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   My-First-OpenCV-Vision-Test.vcxproj -> D:\DATAFiles\OpenCV\repos\My-First-OpenCV-Vision-Test\x64\Release\My-First-OpenCV-Vision-Test.exe
