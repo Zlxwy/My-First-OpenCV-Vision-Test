@@ -13,7 +13,7 @@ int main(void) {
     // test_terminal_pic_disp();
     // track_detect_ilikara();
 
-    // test_track_rcgn_static();
+    test_track_rcgn_static();
     // test_track_rcgn_animated();
     // test_track_bly_static();
 
@@ -21,5 +21,5 @@ int main(void) {
     // test_fill_bin_small_region();
 
     // test_banmaxian_detect();
-    test_avoid_obstacles();
+    // test_avoid_obstacles();
 }

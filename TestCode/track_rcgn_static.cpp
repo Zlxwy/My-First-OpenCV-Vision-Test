@@ -74,11 +74,18 @@ int test_track_rcgn_static(void) {
 
         int KeyGet = cv::waitKey(0);
         if (KeyGet == KEY_ESC) break;
-        else if ((KeyGet == 47) && (pic_file == PIC_FILE_NUM - 1)) pic_file = 0;
-        else if ((KeyGet == 44 && pic_index == 0) || (KeyGet == 46 && pic_index == TRACK_PIC_NUM - 1))pic_index = pic_index;
-        else if (KeyGet == 47) pic_file++;
-        else if (KeyGet == 46) pic_index++;
-        else if (KeyGet == 44) pic_index--;
+        else if (KeyGet == KEY_SLASH) {
+            if (pic_file == PIC_FILE_NUM - 1) pic_file = 0;
+            else pic_file++;
+        }
+        else if (KeyGet == KEY_COMMA) {
+            if (pic_index == 0) pic_index = pic_index;
+            else pic_index--;
+        }
+        else if (KeyGet == KEY_DOT) {
+            if (pic_index == TRACK_PIC_NUM - 1) pic_index = pic_index;
+            else pic_index++;
+        }
         else continue;
     }
 

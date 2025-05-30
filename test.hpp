@@ -114,5 +114,9 @@ constexpr auto KEY_6 = 54;
 constexpr auto KEY_7 = 55;
 constexpr auto KEY_8 = 56;
 constexpr auto KEY_9 = 57;
+constexpr auto KEY_COMMA = 44; // ¶ººÅ¼ü
+constexpr auto KEY_DOT   = 46; // µãºÅ¼ü
+constexpr auto KEY_SLASH = 47; // ÕýÐ±¸Ü¼ü
+constexpr auto KEY_BACKSLASH = 92; // ·´Ð±¸Ü¼ü
 
 #endif // #ifndef __TESTCODE_HPP

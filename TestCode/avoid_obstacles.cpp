@@ -37,15 +37,15 @@ int test_avoid_obstacles(void) {
         // 反转小面积黑白区域方法2
         // invertSmallRegion_2(binFrame, MIN_AREA_THRESH); // 反转面积小于MIN_AREA_THRESH的轮廓
 
-        // 使用一种滤波算法
+        // 使用一种滤波算法处理二值化图像
         binImgFilter(binFrame);
 
-        // 边线识别：在同一行中，要连续识别到多个相反像素，才能认定为边线===============================================
-        std::vector<cv::Point> leftEdgePoints, rightEdgePoints;  // 定义两个容器来存储寻找到的左右边缘点
-        std::vector<cv::Point> leftEdgePointsFiltered, rightEdgePointsFiltered;
+        // 边线识别=================================================================================================
+        std::vector<cv::Point> leftEdgePoints, rightEdgePoints;  // 定义两个容器来存储寻找到的左右边缘点的坐标值
+        std::vector<cv::Point> leftEdgePointsFiltered, rightEdgePointsFiltered; // 定义两个容器来存储寻找到的左右边缘点对x坐标值滤波后的坐标值
         findEdgePix(binFrame, leftEdgePoints, rightEdgePoints); // 查找二值图像的左右边界像素点坐标，存入两个容器中
-        filterXCoord(leftEdgePoints, leftEdgePointsFiltered, 25);
-        filterXCoord(rightEdgePoints, rightEdgePointsFiltered, 25);
+        filterXCoord(leftEdgePoints, leftEdgePointsFiltered, 25); // 对左边界点的x坐标值进行滤波处理
+        filterXCoord(rightEdgePoints, rightEdgePointsFiltered, 25); // 对右边界点的x坐标值进行滤波处理
 
         size_t min_dop_num = std::min<size_t>(leftEdgePointsFiltered.size(), rightEdgePointsFiltered.size()); // 获取这两个容器的元素数量最小值
         std::vector<cv::Point> midPoint; // 用于收集两条边线之间的中点坐标值
@@ -77,9 +77,14 @@ int test_avoid_obstacles(void) {
 
         int KeyGet = cv::waitKey(0);
         if (KeyGet == KEY_ESC) break;
-        else if ((KeyGet == 44 && pic_index == 0) || (KeyGet == 46 && pic_index == OBSTACLES_PIC_NUM - 1))pic_index = pic_index;
-        else if (KeyGet == 46) pic_index++;
-        else if (KeyGet == 44) pic_index--;
+        else if (KeyGet == KEY_COMMA) {
+            if (pic_index == 0) pic_index = pic_index;
+            else pic_index--;
+        }
+        else if (KeyGet == KEY_DOT) {
+            if (pic_index == OBSTACLES_PIC_NUM - 1) pic_index = pic_index;
+            else pic_index++;
+        }
         else continue;
     }
 
